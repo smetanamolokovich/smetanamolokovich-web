@@ -7,7 +7,6 @@ import {
   Image,
   List,
   ListItem,
-  SimpleGrid,
   Icon,
   Button,
   useColorModeValue
@@ -17,9 +16,8 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { BioYear, BioSection } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { GridItem } from '../components/grid-item'
 import { IoLogoGithub } from 'react-icons/io5'
-import {BsTelegram} from 'react-icons/bs'
+import { BsTelegram } from 'react-icons/bs'
 
 const Page = () => {
   return (
@@ -133,7 +131,7 @@ const Page = () => {
                 </Button>
               </Link>
             </ListItem>
-			<ListItem>
+            <ListItem>
               <Link href="https://t.me/smetanamolokovich" _blank="target">
                 <Button
                   variant="ghost"

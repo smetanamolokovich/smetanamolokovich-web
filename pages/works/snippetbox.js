@@ -1,5 +1,4 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -12,7 +11,7 @@ const Work = () => (
       </Title>
       <P>
         SnippetBox lets people paste and share snippets of text -- a bit like
-        Pastebin or Github's Gists.
+        Pastebin or Github&apos;s Gists.
       </P>
       <List ml={4} mt={4} mb={4}>
         <ListItem>
