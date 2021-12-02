@@ -65,12 +65,7 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            dignissim arcu arcu, eu tempor urna dapibus in. Nulla arcu arcu,
-            blandit et sodales et, mattis porttitor tortor. Fusce lobortis
-            lacinia molestie. Integer ultrices nisl sed semper auctor. Duis
-            rutrum, lectus at cursus placerat, lacus turpis ullamcorper lacus,
-            at rutrum tellus odio dapibus ex{' '}
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged{' '}
             <NextLink href="/works/pagination">
               <Link>Paginator</Link>
             </NextLink>
